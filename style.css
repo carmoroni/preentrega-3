@@ -468,9 +468,65 @@ footer {
     h1 {
         text-align: center;
         font-size: 40px;
-       
     }
-   
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px;
+        display: inline-block;
+        width: 100%;
+        position: sticky;
+        top: 0px;
+    }
+    
+    header ul {
+        display: flex;
+        align-items: right;
+    }
+    
+    .navbar {
+        background-color: #f6e7d6;
+        text-decoration: none;
+        position: sticky;
+        top: 0px;
+        height: 50px;
+    }
+    .navbar ul li a {
+        font-size: 10px;
+        position: relative;
+        top: 10px;
+    }
+    
+    
+    header ul li a {
+        color: rgb(0, 1, 1);
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        margin: 15px;
+        text-align: center;
+    
+    }
+    
+    header ul li {
+        margin: 15px 15px
+    }
+    
+    header ul {
+        list-style-type: none;
+    }
+    
+    header ul li a {
+        font-family: monospace;
+        font-size: 10px;    
+    }
+    
+    body {
+        background-color: #fffbf1;
+        justify-content: center;
+    }
+       
     .imgluna {
         border-radius: 100%;
         height: 100px;
@@ -649,13 +705,13 @@ footer {
 @media only screen and (min-width: 426px) (max-width: 768px) {
    
     
-    }
+}
 
 
 
 
 @media only screen and (min-width: 1024px) {
-    
+
 }
 
 
