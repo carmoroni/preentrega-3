@@ -96,10 +96,7 @@ header ul li a {
 
 }
 
-body {
-    background-color: #fffbf1;
-    justify-content: center;
-}
+
 
 /* FORMULARIO */
 
@@ -166,9 +163,11 @@ select {
 
 /* IMAGENES */
 .imgluna {
-    height: 400px;
+    height: 200px;
     display: block;
     margin: auto;
+    border-radius: 50%;
+    padding: 20px; 
 }
 
 .imgperfil {
@@ -414,7 +413,7 @@ h1 span:hover {
 }
 .imgluna:hover {
     border-radius: 50%;
-    height: 200px;
+    height: 100px;
 }
 .boton:hover {
     color: white;
@@ -486,8 +485,7 @@ footer {
     }
     
     .navbar {
-        background-color: #f6e7d6;
-        text-decoration: none;
+        background-color: #ffcfd8;        text-decoration: none;
         position: sticky;
         top: 0px;
         height: 50px;
