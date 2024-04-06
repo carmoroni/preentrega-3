@@ -1,7 +1,15 @@
 .imgluna {
-    height: 400px;
+    height: 200px;
     display: block;
     margin: auto;
+    border-radius: 50%;
+    padding: 20px; 
+    transition: 3s;
+    &hover{
+        border-radius: 50%;
+        transform: rotate(360deg);
+    }
+
 }
 
 .imgperfil {
@@ -25,6 +33,8 @@
     margin-bottom: 2cm;
     margin-left: 1cm;
     display: inline;
+    transform: translate(-20px, 1px );
+
 }
 
 .imgred {
@@ -32,6 +42,7 @@
     height: 40px;
     position: relative;
     top: 19px;
+
 }
 
 .imgtiktok
@@ -39,6 +50,8 @@
     border-radius: 0%;
     height: 41px;
     margin-top: 1cm;
+
+ 
 }
 
 .imgwa {
@@ -47,10 +60,11 @@
     top 30px;
     bottom: 40px;
     right: 20px;
+       
 }
 
 .imgcarta {
-    height: 500px;
+    height: 300px;
     display: block;
     margin: auto;
     border-radius: 5px;
@@ -64,4 +78,3 @@
     
 
 }
-

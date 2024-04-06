@@ -1,11 +1,14 @@
 
-
+@mixin estilostexto ($family, $size, $weight, $color){
+    font-family: $family;
+    font-size: $size; 
+    font-weight: $weight; 
+    color: $color;
+}
 h1 {
-    color: #565656;
-    text-align: center; 
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    font-size: 3.8rem;
-    background-image: radial-gradient(250px 100px, lightblue, pink);
+    @include estilostexto('Times New Roman', 3.8rem, bold, #565656)
+    text-align: $align center; 
+    background-image: $gradient radial-gradient(250px 100px, lightblue, pink);
 }
 
 h2 {
@@ -16,15 +19,14 @@ h2 {
 
 }
 h6 {
-    color: #F691AC; 
-    font-family: 'Courier New', Courier, monospace; 
+    @include estilostexto('Courier New', 1rem, none, #F691AC)
     text-align: center;
     line-height: 2;
-    font-size: 1rem;
 }
 
 p {
-    text-align: center; color: #565656; font-family: 'Courier New', Courier, monospace;
+    @include estilostexto('Courier New', 1rem, none, #565656)
+    text-align: center; 
 }
 
 h1 span {
