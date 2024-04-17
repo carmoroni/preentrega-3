@@ -1,5 +1,5 @@
 textarea {
-    background-color: #ffcfd8;
+    background-color: $color-de-header;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -15,9 +15,10 @@ textarea {
         border-radius: 5px;
         margin-top: 10px;
         margin-bottom: 10px;
-        background-color: #ffcfd8;
+        background-color: $color-de-header;
     }
-    form p {
+    form {
+        p {
         margin-top: 20px;
         margin-bottom: 10px;
         margin-left: auto;
@@ -28,7 +29,7 @@ textarea {
         
     }
     .boton {
-        background-color: #ffcfd8;
+        background-color: $color-de-header;
         color: gray;
         padding: 7px 12px;
         border-radius: 5px;
@@ -39,7 +40,7 @@ textarea {
     
     }
     select {
-        background-color: #ffcfd8;
+        background-color: $color-de-header;
         display: block;
         margin-left: auto;
         margin-right: auto;

@@ -9,7 +9,17 @@ h1 {
     @include estilostexto('Times New Roman', 3.8rem, bold, #565656)
     text-align: $align center; 
     background-image: $gradient radial-gradient(250px 100px, lightblue, pink);
+    &hover {
+        color: black;
+    }
+    span {
+        color: #F691AC;
+        &hover {
+            color: black;
+        }
 }
+}
+
 
 h2 {
     color: gray; 
@@ -29,6 +39,9 @@ p {
     text-align: center; 
 }
 
-h1 span {
-    color: #F691AC;
+a {
+    &hover {
+    color: #565656;
+}
+
 }

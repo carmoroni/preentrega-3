@@ -47,11 +47,8 @@
 
 .imgtiktok
 {
-    border-radius: 0%;
-    height: 41px;
-    margin-top: 1cm;
+    @extend .imgred
 
- 
 }
 
 .imgwa {

@@ -1,4 +1,5 @@
 
+$color-de-header: #FFCFD8; 
 
 header {
     display: flex;
@@ -12,6 +13,9 @@ header {
         ul {
         display: flex;
         align-items: right;
+        list-style-type: none;
+        display: flex;
+
         }
  
         a {
@@ -36,21 +40,15 @@ header {
         }
     }
     
-        ul {
-        list-style-type: none;
-        }
+       
     
     
-    
-        ul {
-        display: flex;
-        align-items: right;
-    }
+ 
 
 }
 
 .navbar{
-    background-color: #ffcfd8;
+    background-color: $color-de-header;
     text-decoration: none;
     position: sticky;
     top: 0px;
@@ -75,48 +73,7 @@ header {
 
 
 
-/* PSEUDOCLASES */
-a:hover {
-    color: #565656;
-}
-h1:hover {
-    color: black;
-}
-h1 span:hover {
-    color: black;
-}
-.imgluna:hover {
-    border-radius: 50%;
-    height: 200px;
-}
-.boton:hover {
-    color: white;
-    background-color: gray;
 
-}
-.boton:active {
-    color: #F691AC;
-    background-color: white;
-}
-form input:focus {
-    border: 1px solid #F691AC;
-
-}
-
-#carouselExampleIndicators {
-    margin: 40px;
-    border: 5px solid gray;
-    border-radius: 10px;
-    display: block;
-    margin: auto;
-}
-
-.px-wide {
-    width: 400px;
-    margin: auto;
-}
-    
-    
     
 
 
